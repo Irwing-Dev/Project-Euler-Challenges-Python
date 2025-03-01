@@ -1,11 +1,8 @@
-num = 1
+seq = [0, 1]
 sum = 0
+for i in range(0, 34):
+    seq.append(seq[-1] + seq[-2])
+    if seq[i] % 2 == 0:
+        sum += seq[i]
 
-while num < 1000:
-    num += sum
-    sum += num
-
-    if num % 2 == 0 and num < 1000:
-        print(num)
-    if sum % 2 == 0 and num < 1000:
-        print(sum)
+print(sum)

@@ -8,5 +8,5 @@ def fatores_primos(n):
         divisor += 1
     return fatores
 
-numero = int(input("Digite um número: "))
+numero = 600851475143
 print(fatores_primos(numero))
