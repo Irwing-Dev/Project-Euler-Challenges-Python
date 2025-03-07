@@ -32,4 +32,6 @@ def squares_of_the_sum():
         sum_numbers += n
     return sum_numbers**2
 
-print(f"The square of the sum is: {squares_of_the_sum()} and the sum of the squares is: {sum_of_the_squares()} \nThe subtraction of them is: {squares_of_the_sum() - sum_of_the_squares()}")
+difference = squares_of_the_sum() - sum_of_the_squares()
+
+print(f"The square of the sum is: {squares_of_the_sum()} and the sum of the squares is: {sum_of_the_squares()} \nThe subtraction of them is: {difference}")
