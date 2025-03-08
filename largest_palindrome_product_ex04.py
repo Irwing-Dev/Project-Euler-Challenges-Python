@@ -22,3 +22,5 @@ for i in palindromers:
         largest_palindromer = i
 
 print(f"993 * 913 = {largest_palindromer} \nThe largest palindrome formed by the product of two 3-digit numbers is: {largest_palindromer}")
+
+# Output: 906609

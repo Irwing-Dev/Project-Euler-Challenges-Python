@@ -16,3 +16,5 @@ def prime_factors(n):
 
 number = 600851475143
 print(prime_factors(number))
+
+# Output: 6857

@@ -28,3 +28,5 @@ def factorial_digit_sum(number: int):
     return sum_of_the_digits
 
 print(factorial_digit_sum(100))
+
+# Output: 648

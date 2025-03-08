@@ -35,3 +35,5 @@ def squares_of_the_sum():
 difference = squares_of_the_sum() - sum_of_the_squares()
 
 print(f"The square of the sum is: {squares_of_the_sum()} and the sum of the squares is: {sum_of_the_squares()} \nThe subtraction of them is: {difference}")
+
+# Output: 25164150

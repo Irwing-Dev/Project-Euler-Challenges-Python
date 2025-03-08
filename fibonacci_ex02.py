@@ -16,3 +16,5 @@ for i in range(0, 34):
         sum += seq[i]
 
 print(sum)
+
+# Output: 4613732
