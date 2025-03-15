@@ -23,6 +23,6 @@ def nth_prime(n):
             count += 1
     return num
 
-print(nth_prime(6))
+print(nth_prime(10001))
 
 # Output: 104743
